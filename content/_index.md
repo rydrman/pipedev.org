@@ -10,7 +10,7 @@ I am helping a little to organize this year's first [pipeline conference](https:
 
 That being said, I've decided to try to get something organized and/or see if I can garner any interest. At this point, I am really just looking to collect email addresses for those who would be interested in being involved.
 
-If a pipeline developer group/forum/meetup sounds like something you or your colleagues would be interested in taking part in, I'd love for you to help me spread the word, and consider adding your email to the list or connect with me via [ryanbottriell@live.ca](mailto:ryanbottriell@live.ca) or on [linkedin](https://www.linkedin.com/in/ryanbottriell/)>
+If a pipeline developer group/forum/meetup sounds like something you or your colleagues would be interested in taking part in, I'd love for you to help me spread the word, and consider adding your email to the list or connect with me via [ryanbottriell@live.ca](mailto:ryanbottriell@live.ca) or on [linkedin](https://www.linkedin.com/in/ryanbottriell/)
 
 If you are interested in taking part, please consider subscribing to the email list. This will only be used to get in touch when things get rolling.
 
