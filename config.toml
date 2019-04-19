@@ -1,12 +1,3 @@
 baseURL = "http://pipedev.org/"
 languageCode = "en-us"
 title = "Vancouver Pipeline Developers"
-theme = "learn"
-
-[params]
-themeVariant = "blue"
-editURL = "https://github.com/rydrman/pipedev.org/edit/master/content/"
-
-# enables search in the learn theme
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
