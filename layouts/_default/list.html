@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    {{ partial "stylesheets" . }}
+</head>
 
 <body>
+    <div class="hero">
+        <h1>{{ .Site.Title }}</h1>
+    </div>
+    {{ partial "navbar.html" . }}
+    {{ partial "content.html" . }}
 
-    <h1>{{ .Title }}</h1>
-    {{ range .Pages }}
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="block">
+        <h2>{{ .Title }} <span class="subtitle">| {{ .Date.Format "Monday, Jan 2, 2006" }}</span></h2>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .Permalink }}">more...</a>
+    </div>
     {{ end }}
+
+    {{ partial "footer.html" . }}
 
 </body>
 

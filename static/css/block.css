@@ -1,0 +1,33 @@
+.block {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    padding: 0px 30px;
+}
+
+.block h1 {
+    font-size: 32px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+.block h2 {
+    font-size: 28px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+.block h3 {
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+.block h4 {
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.block p {
+    text-align: justify;
+}

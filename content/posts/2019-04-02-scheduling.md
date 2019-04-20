@@ -1,5 +1,5 @@
 ---
-date: April 2, 2019
+date: 2019-04-02
 title: Scheduling
 weight: 1
 ---

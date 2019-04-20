@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    {{ partial "stylesheets" . }}
+</head>
 
 <body>
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <div class="hero">
+        <h1>{{ .Site.Title }}</h1>
+    </div>
+    {{ partial "navbar.html" . }}
+    {{ partial "content.html" . }}
+    {{ partial "footer.html" . }}
 </body>
 
 </html>

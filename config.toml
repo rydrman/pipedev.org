@@ -1,3 +1,4 @@
 baseURL = "http://pipedev.org/"
 languageCode = "en-us"
-title = "Vancouver Pipeline Developers"
+title = "Pipeline Developer Forum"
+summaryLength = 25

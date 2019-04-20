@@ -1,0 +1,71 @@
+
+html,body {
+    font-family: Impact, Charcoal, sans-serif;
+    margin: 0px;
+    width: 100%;
+    color: #404040;
+}
+
+.hero {
+    text-align: center;
+    width: 100%;
+}
+.hero h1 {
+    display: inline-block;
+    margin: 50px 0px;
+    color: #AAB;
+    font-weight: normal;
+
+}
+
+.navbar {
+    border-top: 1px solid #AAB;
+    border-bottom: 1px solid #AAB;
+    text-align: center;
+}
+.navbar a {
+    color: #AAB;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 2px;
+}
+.navbar a.current{
+    text-decoration: underline;
+}
+
+.subtitle {
+    color: #AAB;
+    font-size: 80%;
+}
+
+.footer {
+    border-top: 1px solid #AAB;
+    padding: 50px 0px;
+    text-align: center;
+    color: #AAB;
+}
+.footer a.button {
+    border: 1px solid #AAB;
+    border-radius: 5px;
+    color: #AAB;
+    text-decoration: none;
+    padding: 10px;
+    font-variant: small-caps;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer a.button:hover{
+    background-color: #AAB;
+    color:white;
+}
+.footer p {
+    font-style: italic;
+    margin: 2px;
+}
+.footer a{
+    color: #AAB;
+}

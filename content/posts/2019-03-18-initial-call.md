@@ -1,5 +1,5 @@
 ---
-date: March 18, 2019
+date: 2019-03-18
 title: "Initial Call"
 weight: 0
 ---
@@ -13,5 +13,3 @@ That being said, I've decided to try to get something organized and/or see if I 
 If a pipeline developer group/forum/meetup sounds like something you or your colleagues would be interested in taking part in, I'd love for you to help me spread the word, and consider adding your email to the list or connect with me via [ryanbottriell@live.ca](mailto:ryanbottriell@live.ca) or on [linkedin](https://www.linkedin.com/in/ryanbottriell/)
 
 If you are interested in taking part, please consider subscribing to the email list. This will only be used to get in touch when things get rolling.
-
-{{< email-signup >}}
