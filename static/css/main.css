@@ -42,6 +42,12 @@ html,body {
     font-size: 80%;
 }
 
+blockquote>p {
+    border-left: 2px solid lightgrey;
+    color: #666;
+    padding-left: 10px;
+}
+
 .footer {
     border-top: 1px solid #AAB;
     padding: 50px 0px;
