@@ -1,6 +1,7 @@
 ---
 date: 2019-04-02
 title: Scheduling
+author: Ryan Bottriell
 weight: 1
 ---
 

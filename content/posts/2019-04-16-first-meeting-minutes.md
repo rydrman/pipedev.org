@@ -1,6 +1,7 @@
 ---
 date: 2019-04-16
 title: "First Meeting - Minutes"
+author: Ryan Bottriell
 weight: 100
 ---
 
