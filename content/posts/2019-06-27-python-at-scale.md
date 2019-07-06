@@ -2,10 +2,11 @@
 title: "Forum - June 2019"
 date: 2019-06-27
 author: Ryan Bottriell
-draft: true
 ---
 
 A big thank you again to all those who made it out to this month's forum! We had an amazing turnout, made some new friends, and had some wonderful discussions.
+
+Also, before I jump in: [The Pipeline Conference](https://thepipelineconference.com) is having it's inaugural event alongside Siggraph this year so check that out!
 
 ## Python At Scale
 
@@ -44,88 +45,50 @@ As the number of contributors grows the sheer volume of tools, scripts, applicat
 
 Introducing and enforcing a set of standards and practices is definitely an effective way to maintain some level of consistency over a vast sea of source code. We are not just talking about code formatting or linting here either - to be truly effective, we need to define a set of development processes and best practices to cover all aspects of the code and it's organization. One recommendation for achieving this is to establish a working group; One with an open membership which can establish and maintain these standards. As previously discussed, all of this comes with the additional burden of properly communicating the requirements. Ideally, the working group also maintains a set of editor plugins or other tooling to support their decisions. This allows developers to easily meet, and for CI systems to easily validate the established requirements.
 
----
+On the other hand, there are many successful instances to be seen of large software companies relying on smaller teams to develop their own best practices and ways of working. There is definitely an element of trust here: trusting each of the teams to act professionally and do what is necessary to produce reliable software and tools. One of the main discussion points that drive this side of the conversation was just in playing the devils advocate to the above scenario: How do you measure the busine$$ value of standards enforcement? What if you don't centralize and standardize? You can provide a set of resources to be taken advantage of, but allow teams and developers to find what works best for them.
 
-TODO: the other side
-TODO: the universal thoughts
-TODO: conclusion
+In our forum group, there were cases of studios following both of these scenarios, and succeeding. We pondered the difference, and ultimately settled on studio culture being at the heart of most difference. Where these difference cultures come from is a discussion on its own, and discussions on affecting a change in culture is way beyond our expertise.
 
-How do we maintain large codebases
-Coding standards team, or body to help direct things. Not just linting but the whole development process, development best practices
-Properly scoped tasks, regular integration, often a lot of issues arise from one person in isolation writing and making a lot of changes and presenting a huge merge
-Don’t try to reinvent process to much:
-Example: gitflow: master as dev branch with branches for each release, but that caused a huge spaghetti of branches and merges
-Be proud of your work
-Take the time to not just make it work but to really be proud of it
-Teams responsible for their own standards
-This can largely be dependent on the people who are there, and the size of the studio
-Still involves core tools and core pipelines
+## Best Practices For Teams and At Scale
 
-## Migrating Code from an Individual to a Team
+An interesting question came up about how we can promote projects with a single developer into one owned and maintained by a team. What this sparked, really, was an expose on best practices for software development in general. What that tells us is that projects of any size which are built with care will be the easiest to scale and maintain over time.
 
-How does something scale form one developer to like 4 or 5
-Communication!!
-Depends on the people at some level
-Consistent standards are great, being in sync
-Feeling included, feeling empowered is a huge thing
-There’s something to be said about trust here, and a big thing
-Idea: open conference room
-Regularly scheduled, open time for face-to-face feedback and communication
-
-## Deploying Python in a Pipeline Environment
-
-Deployment Strategies
-A few different strategies for different teams and levels, but everyone responsible in large part for their own code, standards and deployments
-Does this create a lot a lot or reproduction
-Do we care about things that won’t live long
-When do things not live longer than they should?
-Properly integrated dev environments that support standards
-How do you quantify the gains from standards enforcement?
-What are the best prices of information to ask of contributors
-Maybe just documentation about what you did
-
-Local, shared drive
-What is the goal of either
-Pip-env
-Resolving things can be slow
-Virtualenv
-Deterministic environments, is this the goal, is this the
-Being able to go back to days past, reproduceability
-But not everything is part of that (farm, services)
-
-Code Insight
-
-Code Ownership
-The balance between ownership, collaboration, dictator
+- Merge early and merge often - do not build in a bubble and present a huge changeset to your colleagues
+- Be proud of your code - not just what your code does, but the code itself
+- Communicate - discuss your work as often as possible and gather feedback
 
 ## Things you Need At Scale
 
-Project managers, architects
-Long term and short term planners
-Requirements gathering, tracking, roadmapping
-Are these really scale problems
+A small list of additional resources required as projects and codebases scale out. After jotting down this list, though, we couldn't help but wonder: Are these really scale problems, though? Or do the jobs just get bigger at scale?
 
-# Managing Documentation
+- Project management
+- Software architects
+- Short, medium and long term planning - project road maps
+- Requirement gathering, tracking
+- Release management
+- A healthy balance between ownership and collaboration
 
-Maybe even release notes
-Developers don’t necessarily need that
-How do you measure the imapact of good documentation on users?
-Firefox (good example of documentation done well)
-IF we are honest, developers are really bad at writing docs that are accessible to a large set of users
-Answer good questions
-What are you looking at
-Cookbook type stuff
-Reference to go much farther
-Generate docs from code:
-Still needs to be searchable and accessible
-Easy feedback to find and mark documentation as out of date
-Someone on the other side of that
-Sometimes documentation can be collaborative
-accessible
+## Deploying Python in a Pipeline Environment
 
-Culture
-Very common theme in almost every discussion
+As an [interpreted language](https://en.wikipedia.org/wiki/Interpreted_language), Python distribution is largely just making the source files available for people to execute. Because of that, one of the consistent solutions that we see is just a large shared network drive in which all code is placed and executed from. What you often end up with is either a repository of versioned packages or a singular view of what is currently _the pipeline_. In the former, you additionally require methods to specify, resolve and build up environments with the versions of the code that you want, whereas the former introduces challenges with isolating environments and reduce the impact of bugs or breaking changes.
 
+### Python Byte Code
+
+Do we enable the generation of `.pyc` files in production? Do we pre-generate `.pyc` files and deploy them exclusively? The answers here seem to run the gamut, and probably anything is a good solution as long as you stick to it.
+
+### Some Notable Tools
+
+- [Rez](https://github.com/nerdvegas/rez) - packaging, environment definition and dependency resolution
+- [virtualenv](https://virtualenv.pypa.io/en/latest/) - environment isolation
+- [pipenv](https://github.com/pypa/pipenv) - python packaging, environment isolation, dependency resolution, deterministic builds
+
+## Managing Documentation
+
+Do we include release notes under the umbrella of documentation? And how do you even measure the impact of good documentation?
+
+If we're honest with ourselves, developers are not usually the best at writing docs that are accessible to our users. Even when we do write decent documentation it is always at risk of becoming out of date, which can be detrimental to the usability of the system as a whole.
+
+Realistically, it feels like in a studio environment the documentation must be collaborative. A well build system with the right culture creates a workflow where all documentation can be fixed, and improved by anyone at any time. Dedicated technical writers or other people responsible for initial documentation can still provide a lot of value in this kind of system, but we admit that realistically we cannot expect to see the investment of resources required to professionally maintain all of a studios documentation over time.
 
 ## Type Hinting
 
@@ -133,37 +96,20 @@ It’s great! and worth the time. This is especially true in Python 3, where it 
 
 ## Technical Issues At Scale
 
-What is python at scale?
-NFS problems?
-Servers?
-Env Vars - max character limits
-NFS - Rez
-Myths? (mention previous forum)
-Once or twice rez not being able to resolve
-NFS and stat-ing in rez can be a problem
-Importing processes can have issues because of pythonpaths
-Maybe they were really problems a long time ago
-At what point is hardware cheaper than the dev time to fix these things
-Multithreading - Multiprocessing
-Difficult for web servers
-Async in python 3
-Something over python that manages subprocesses
-Py 3.8 (interpreters) spawn new interpreter sessions withing the same runtime…
-Analyzing Dependencies
-Monkeypatch importing to track the call graph
-Pump that into something else and generate dependency graphs
-Pydeps, not alwas the best
-The hardest part is analysis of this information
-Runtime dependencies
-Getting rid of these can help, but can also be hard
-Reload statements
-Necessary evil?
-Consensus is largely do not use them
-Not understanding the impact of the reload statement
-PYC files
-Precompile, disable, neither?
-Seems to run the gamut
-Probably making a choice and comitting is fine
+This turned into a very interesting topic. It feels like there are a lot of myths surrounding possible Python technical issues, but as we dove into them no one could actually recount any real cases when they were encountered - only heresay and rumours. Maybe some of these things were more reasonable considerations in the past, but as hardware and systems have improved, it's hard to say that they are even worth the hourly rate of a developer to think about.
+
+### Myths?
+
+- Importing Python code over NFS (Network File System) can be too chatty and cause problems
+
+> Python looks for a lot of different files and file extensions, not to mention checking and (re-)compiling pyc code (if enabled)
+
+- Rez adds one `PYTHONPATH` entry for each package, which gets long and slow - adding to the file system chatter
+
+### Things You May Not Know / Tips
+
+- There are character limits to environment variables ([Linux](https://unix.stackexchange.com/a/521377), [Windows](https://devblogs.microsoft.com/oldnewthing/20100203-00/?p=15083))
+- Do not deploy code with the reload statement - it does [a lot more](https://docs.python.org/2.7/library/functions.html#reload) than you may know. It's also not as accessible in Python3.X
 
 
 ## Further Reading and Links
@@ -179,5 +125,3 @@ The [Clean Code/Coder/Architecture Series](https://www.pearson.com/us/higher-edu
 [How Google Works](https://www.amazon.ca/How-Google-Works-Eric-Schmidt/dp/1455582344) is a recommended read if you are interested in learning about how one of the largest software companies in the world works
 
 [Powerful](https://www.amazon.ca/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095) is another recommended read on the culture and process of Netflix, and how they manage their teams and scale
-
-[The Pipeline Conference](https://thepipelineconference.com) is having it's inaugural event alongside Siggraph this year if you want to attend
