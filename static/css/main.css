@@ -6,6 +6,13 @@ html,body {
     color: #404040;
 }
 
+a {
+    color: rgb(46, 196, 255);
+}
+a:visited {
+    color: rgb(182, 26, 202);
+}
+
 .hero {
     text-align: center;
     width: 100%;
