@@ -37,9 +37,14 @@ html,body {
     text-decoration: underline;
 }
 
-.subtitle {
-    color: #AAB;
+.subtitle-topic {
+    color: #666;
     font-size: 80%;
+}
+
+.subtitle-date {
+    color: #AAB;
+    font-size: 70%;
 }
 
 blockquote>p {

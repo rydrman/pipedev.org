@@ -14,7 +14,13 @@
 
     {{ range .Pages.ByDate.Reverse }}
     <div class="block">
-        <h2>{{ .Title }} <span class="subtitle">| {{ .Date.Format "Monday, Jan 2, 2006" }}</span></h2>
+        <h2>{{ .Title }}
+            {{ if .Param "topic" }}
+            <span class="subtitle-topic">| {{ .Param "topic" }}</span>
+            {{ end }}
+            <br /><span class="subtitle-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</span>
+        </h2>
+
         <p>{{ .Summary }}</p>
         <a href="{{ .Permalink }}">more...</a>
     </div>
