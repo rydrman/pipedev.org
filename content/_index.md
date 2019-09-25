@@ -4,7 +4,7 @@ title: "Home"
 
 # About Us
 
-Our goal is to bring together the Vancouver community of VFX and animation pipeline developers to talk shop. The group's membership is open, and we encourage anyone who is interested to come by and join the discussion!
+Our goal is to bring together the Vancouver community of {{% tooltip VFX "Visual Effects" %}} and animation pipeline developers to talk shop. The group's membership is open, and we encourage anyone who is interested to come by and <a class="button" href="javascript:signup();">join the discussion</a>!
 
 # The Forum
 
