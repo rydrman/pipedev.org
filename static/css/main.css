@@ -17,12 +17,11 @@ a:visited {
     text-align: center;
     width: 100%;
 }
-.hero h1 {
+.hero>h1 {
     display: inline-block;
     margin: 50px 0px;
     color: #AAB;
     font-weight: normal;
-
 }
 
 .navbar {
