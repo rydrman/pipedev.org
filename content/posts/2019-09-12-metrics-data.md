@@ -3,6 +3,7 @@ title: "Forum - September 2019"
 topic: "Metrics, Logging and Data Collection"
 date: 2019-09-12
 author: Ryan Bottriell
+summary: "We have touched on this topic briefly before in our Python at Scale, and CI/CD forums, but it was nice to sit down and dig deeper into the strategies, technologies, and details of implementation."
 ---
 
 We have touched on this topic briefly before in our [Python at Scale](/posts/2019-06-27-python-at-scale), and [CI/CD](/posts/2019-06-01-ci-cd) forums, but it was nice to sit down and dig deeper into the strategies, technologies, and details of implementation.

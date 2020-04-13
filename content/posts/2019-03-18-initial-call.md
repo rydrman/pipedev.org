@@ -1,8 +1,7 @@
 ---
 date: 2019-03-18
-title: "Initial Call"
+title: "Initial Call [Eamil Archive]"
 author: Ryan Bottriell
-weight: 0
 ---
 
 I am a pipeline engineer at Bardel Entertainment here in Vancouver looking to bring some of the local community together around animation and VFX pipelines and related software. There are a couple of groups that I am aware of in LA, and Paris which provide such a forum for discussion and collaboration, but as far as I am aware there is no such a group in Vancouver.

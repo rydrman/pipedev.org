@@ -2,7 +2,7 @@
 date: 2019-04-16
 title: "First Meeting - Minutes"
 author: Ryan Bottriell
-weight: 100
+summary: "A summary of the first ever meeting of the Vancouver Pipeline Developers..."
 ---
 
 I had planned for us to meet at the Waves on Howe street, which is a big space. I called ahead to ask about reserving space but was told that they did not do that for groups coming in. Nonetheless, I figured our gathering wouldn't be too large and the shop is quite large.

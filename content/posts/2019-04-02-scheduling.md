@@ -1,8 +1,7 @@
 ---
 date: 2019-04-02
-title: Scheduling
+title: Scheduling [Email Archive]
 author: Ryan Bottriell
-weight: 1
 ---
 
 Hello Everyone!

@@ -3,6 +3,7 @@ title: "Forum - October 2019"
 topic: "Global VFX Pipelines"
 date: 2019-10-16
 author: Ryan Bottriell
+summary: "In this session, we really tried to focus on the _global_ aspect of this topic. Looking specifically at studios and scenarios where there are multiple sites across many time zones."
 ---
 
 # Global VFX Pipelines
