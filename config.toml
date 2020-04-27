@@ -3,3 +3,7 @@ languageCode = "en-us"
 title = "Pipeline Developer Forum"
 summaryLength = 25
 googleAnalytics = "UA-139193311-2"
+
+[markup.goldmark.renderer]
+# ensure our embedded url gets properly propagated
+unsafe= true
