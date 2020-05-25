@@ -110,3 +110,7 @@ blockquote>p {
 .footer a{
     color: #AAB;
 }
+
+pre {
+    background-color: transparent !important;
+}

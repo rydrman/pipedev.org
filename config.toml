@@ -4,6 +4,17 @@ title = "Pipeline Developer Forum"
 summaryLength = 25
 googleAnalytics = "UA-139193311-2"
 
-[markup.goldmark.renderer]
-# ensure our embedded url gets properly propagated
-unsafe= true
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokailight"
+    tabWidth = 4
+  [markup.goldmark.renderer]
+    # ensure our embedded url gets properly propagated
+    unsafe= true
