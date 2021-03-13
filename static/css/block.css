@@ -1,10 +1,18 @@
 .block {
     border-radius: 10px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 0px auto;
     max-width: 600px;
-    padding: 0px 30px;
+    padding: 1px 30px;
+}
+
+.block.click-block {
+    border-radius: 0px;
+    border-bottom: 1px solid #BBB;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.block.click-block:hover{
+    background-color: #EEE;
 }
 
 .block h1 {

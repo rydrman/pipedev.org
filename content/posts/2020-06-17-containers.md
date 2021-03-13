@@ -1,5 +1,5 @@
 ---
-title: "Forum - June 2020"
+title: "June 2020"
 topic: "Leveraging Containers in a Pipeline"
 date: 2020-06-17
 author: Ryan Bottriell

@@ -1,5 +1,5 @@
 ---
-title: "Forum - March 2020"
+title: "March 2020"
 topic: "Clean Code vs Production Deadlines"
 date: 2020-03-19
 author: Ryan Bottriell

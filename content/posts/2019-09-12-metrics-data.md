@@ -1,5 +1,5 @@
 ---
-title: "Forum - September 2019"
+title: "September 2019"
 topic: "Metrics, Logging and Data Collection"
 date: 2019-09-12
 author: Ryan Bottriell

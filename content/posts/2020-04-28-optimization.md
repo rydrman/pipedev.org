@@ -1,5 +1,5 @@
 ---
-title: "Forum - April 2020"
+title: "April 2020"
 topic: "Code Optimization, Speed, and Efficiency"
 date: 2020-04-28
 author: Ryan Bottriell

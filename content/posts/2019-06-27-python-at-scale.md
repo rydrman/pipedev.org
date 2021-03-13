@@ -1,5 +1,5 @@
 ---
-title: "Forum - June 2019"
+title: "June 2019"
 topic: "Python at Scale"
 date: 2019-06-27
 author: Ryan Bottriell
