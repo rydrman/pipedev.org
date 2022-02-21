@@ -20,20 +20,32 @@
     font-variant: small-caps;
     font-weight: normal;
 }
+.block h1::first-letter {
+    font-weight: lighter;
+}
 .block h2 {
     font-size: 28px;
     font-variant: small-caps;
     font-weight: normal;
+}
+.block h2::first-letter {
+    font-weight: lighter;
 }
 .block h3 {
     font-size: 24px;
     font-variant: small-caps;
     font-weight: normal;
 }
+.block h3::first-letter {
+    font-weight: lighter;
+}
 .block h4 {
     font-size: 20px;
     font-variant: small-caps;
     font-weight: normal;
+}
+.block h5::first-letter {
+    font-weight: lighter;
 }
 
 .block p {

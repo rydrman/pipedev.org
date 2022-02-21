@@ -1,6 +1,6 @@
 ---
 date: 2019-03-18
-title: "Initial Call [Eamil Archive]"
+title: "Initial Call [Email Archive]"
 author: Ryan Bottriell
 ---
 

@@ -1,6 +1,5 @@
 ---
-title: "October 2021"
-topic: "Getting Started in Pipeline"
+title: "Getting Started in Pipeline"
 date: 2021-10-19
 author: Ryan Bottriell
 summary: "Thoughts and advice on getting started as a pipeline developer"
@@ -8,11 +7,11 @@ summary: "Thoughts and advice on getting started as a pipeline developer"
 
 In this session, we wanted to uncover some thoughts and advice on getting started as a pipline developer. I have also been looking for a bit more of a structured format for our meetings for a while now, and so decided to run this session based on the ideas of [lean coffee](https://www.scrum.org/resources/blog/lean-coffee-5-minutes). Overall, I think that this worked really well, and you will find that because of this the notes below are structured more like a Q&A than the usual stream of consciousness that I am trying to organize.
 
-# Getting Started in Pipeline
+## Getting Started in Pipeline
 
 We spent a little bit of time saying hello, writing down some topics, and voting at first. Then, once a question surfaced at the top of the list, we jumped in.
 
-## Onboarding Processes
+### Onboarding Processes
 
 The first question was a poll of onboarding processes. What have you experienced and what kind of on-boarding does your company currently run through for pipeline folks?
 
@@ -20,7 +19,7 @@ Our answers spanned the full gamut, I would say. From being handed a computer th
 
 We also talked about the idea of a 15-minute pipeline, and being able to run through the pipeline on your own in the first week. This, along with any hands-on training in the pipeline space, can be a valuable part of getting people up to speed.
 
-## What type of projects do you work on in pipeline?
+### What type of projects do you work on in pipeline?
 
 In a lot of ways, pipeline {{% tooltip TD "Technical Director" %}}s are responsible for almost everything. They are the caretakers of the entire pipeline and often the first set of eyes on any problem that arises. This is because the pipeline TD's primary goal is usually to keep production moving, and provide solutions to both new and old problems that facilitate a more efficient pipeline.
 
@@ -34,7 +33,7 @@ As a follow-up, here's a random selection of things that people had been working
 - RV support, RV plugins, configuring view rooms
 - exploring DCC software and learning how to render movies from each one
 
-## What barriers do you feel you face in trying to get into the industry?
+### What barriers do you feel you face in trying to get into the industry?
 
 > It's easy to show up to an interview and get asked questions about software and processes that you know nothing about
 
@@ -56,7 +55,7 @@ That being said, our industry is filled with pipeline TD's from a wide variety o
 
 The general advice here is to find projects and experiences that can help to showcase problem-solving skills - your ability to observe the interconnectedness of a workflow and create automation. _This is something that we touched on in more depth later on_.
 
-## How can you move into pipeline from a nen-technical position?
+### How can you move into pipeline from a nen-technical position?
 
 For those not inside of the VFX industry, it might come as a surprise to learn that many pipeline developers and TD's started out on the artistic side of the fence. One of our own members told his story of starting out in animation and experimenting with python to ease some repetitive tasks. Over time they were automating away their job, and sharing tools with the rest of the team. The pipeline team took notice and the rest is history!
 
@@ -64,7 +63,7 @@ This story is not an uncommon one, and there are many studios that are always on
 
 It's less common, but there are also stories of production folks moving into pipeline. In any case, the story is always the same. Learn a little Python, and find some painful parts of your job to automate. As you get a sense of what is possible you start to see more and more opportunities to create cool pipeline-y solutions.
 
-## Any advice for your former self?
+### Any advice for your former self?
 
 There was a lot of good advice in here, and for the sake of this article, I am going to join a few together and rephrase others to try and create an ordered list (starting with the most common).
 
@@ -75,7 +74,7 @@ There was a lot of good advice in here, and for the sake of this article, I am g
 5. It's normal to complain about old code, but choosing to rewrite everything is a bad idea.
 6. The 15 minute rule. If you don't know something, give yourself 15 minutes to figure it out, then ask for help.
 
-## How do you build problem-solving skills?
+### How do you build problem-solving skills?
 
 The easiest thing to do is to find some of your own repetitive tasks and just try to write a script that automates it. It can be hard to motivate yourself with fake scenarios, so looking for opportunities in the work that you are already doing can help make things more real.
 
@@ -85,7 +84,7 @@ A big part of pipeline is working with others, as we've mentioned. There's a ton
 
 Outside of open source there are also indy projects that welcome all kinds of help. These usually are volunteer experiences that expose you to the whole production process and have plenty of their own pipeline challenges to be solved.
 
-## Final Notes
+### Final Notes
 
 As we wrapped up the night, someone asked if some of the pipeline folks that are currently in the industry would be willing to throw out some problems for others to solve and get a feel for the work. We all agreed that this is a great idea! It will require a few people to take the time and come up with some scenarios, so if that could be you, please reach out to me on slack and I will make sure that we get them up on the website or something for everyone to benefit from!
 

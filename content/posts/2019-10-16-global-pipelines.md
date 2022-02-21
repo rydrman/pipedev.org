@@ -1,12 +1,9 @@
 ---
-title: "October 2019"
-topic: "Global VFX Pipelines"
+title: "Global VFX Pipelines"
 date: 2019-10-16
 author: Ryan Bottriell
 summary: "In this session, we really tried to focus on the _global_ aspect of this topic. Looking specifically at studios and scenarios where there are multiple sites across many time zones."
 ---
-
-# Global VFX Pipelines
 
 In this session, we really tried to focus on the _global_ aspect of this topic. Looking specifically at studios and scenarios where there are multiple sites across many time zones.
 
@@ -25,27 +22,27 @@ The Nimble Collective was an interesting kick at the bucket, and worked out pret
 
 If you have talked to any of the cloud vendors at Siggraph or other events they certainly are good at making the whole transition sound inevitable - and it's hard to argue when the whole world seems to be doing it! Our strict security requirements are not cloud-friendly, but could come around.
 
-## Aspects of a Global Pipeline
+### Aspects of a Global Pipeline
 
-### Storage / Media Transfer
+#### Storage / Media Transfer
 
 Making sure data is available to the right artists in the right locations at the right time is a real struggle - as any global studio will tell you. We didn't spent too much time on this one, because it's pretty easy to understand and didn't actually seem to be a real driver of issues.
 
-### Services, Tooling, Software
+#### Services, Tooling, Software
 
 Same as above. It's important for us to remember that our software is not immune from the issues of globalization. If anything it forces us to have a robust delivery and runtime mechanism for ensuring a robust environment.
 
-### Security
+#### Security
 
 Where is your content being displayed? When is it in transition and where is it at rest - is it encrypted? These are the main questions that seem to come up when thinking about the security of a global pipeline. This is in addition to the regular issues of identity and account management that you would find in any business expanding across multiple sites.
 
 We also know that there are some contracts related to the advertising of unreleased technology products etc. which have isolation requirements that simply cannot scale (ie require an entirely separated network and armed guards).
 
-### Quality Control / Environment
+#### Quality Control / Environment
 
 For VFX studios, color accuracy and high fidelity viewing are paramount in ensuring that the images being produced meet the quality bar that is expected. This problem may be more related to size rather than distribution, but in either case ensuring the right hardware, software and working conditions exist becomes more and more of a challenge.
 
-### Communication / Culture
+#### Communication / Culture
 
 This was our biggest discussion point, and we seemed to all agree that fundamentally the challenges of communication and culture pose the greatest challenge. In many ways, a multi-site studio is just many studios working together. In that scenario it's very easy, if not predestined that you'll end up with entirely distinct cultures and mentalities in each location. This, of course, it not automatically a bad thing, but what we often see is that the personal aspect disappears, and people start to say things like: "oh London hates this" or "Vancouver never does that right" - which can easily become a bad landscape for effective collaboration. **Empathy** was a key word in this discussion: specifically how it's so key to effective teams and collaboration but so much harder to generate and maintain across the multi-site boundaries.
 
@@ -63,7 +60,7 @@ This also brought up many other questions about remote workers that we didn't re
 
 Back to communication a little - what about phone systems? Some companies have them and some don't, but essentially every employee having a phone on their desk and being able to reach any other employee. Calling is definitely a really quick way to shorten a conversation that you cannot have in person, or that you would otherwise have over chat. We also discussed the difference between a phone and video chat. Maybe it's generational or personal thing but we felt that the phone was somehow more personal than a video chat or at least that it was generally faster and less painless for getting answers. Regardless, I think we all know that it's better than text chatting for fostering empathy and communicating tone.
 
-## Software Package Management
+### Software Package Management
 
 At this point it's starting to seem inevitable that in every forum we find some way to tangent into talking about software packaging and environment management. I am going to leave some of the details out of this forum post as they were not entirely on topic, but if you are dying for more check out some of the other previous posts.
 
@@ -73,6 +70,6 @@ And on that note - we ran out of time! Perhaps that is a topic for deeper discus
 
 Thanks for reading!
 
-## Further Reading and Links
+### Further Reading and Links
 
 - We've mentioned this one before, but [How Google Works](https://www.howgoogleworks.net/) came up again as an interesting read. Specifically, it talks about a business that was forced to grow through many similar pains as it scaled, migrated and in a lot of ways created the cloud as we know it today.

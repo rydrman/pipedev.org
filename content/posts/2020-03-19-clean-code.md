@@ -1,6 +1,5 @@
 ---
-title: "March 2020"
-topic: "Clean Code vs Production Deadlines"
+title: "Clean Code vs Production Deadlines"
 date: 2020-03-19
 author: Ryan Bottriell
 summary: "This forum started off, as many do, with a simple question: What is clean code?"
@@ -8,7 +7,7 @@ summary: "This forum started off, as many do, with a simple question: What is cl
 
 Thank you to everyone who logged on for our first **virtual** forum! It's a crazy time right now with everyone transitioning to or already working from home, but I'm so happy that we could still come together and talk shop. Given how things went, I think that enabling remote participation should be a goal for every forum!
 
-# Clean Code vs Production Deadlines
+## Clean Code vs Production Deadlines
 
 This forum started off, as many do, with a simple question:
 
@@ -32,7 +31,7 @@ Additionally, we started to talk about API boundaries. Although the shape of the
 
 The other topic that came up in the discussion of clean code was tooling around style guides, formatting and linting. Generally, we agreed that using a style guide or linter is not necessary for clean code, nor does it automatically create clean code. Nonetheless, we believe that they can provide valuable insight into your codebase; ease with legibility; and reduce the need for stylistic discussions in code reviews.
 
-## Production Deadlines
+### Production Deadlines
 
 Having worked our way through the idea of clean code, we decided to fold back in the idea of production deadlines, and how the two relate.
 
@@ -42,7 +41,7 @@ A really good example of this, is when you need to add a feature to a system or 
 
 This brings us to the next question: How do you sell clean code to managers and production? And how do you justify and get approval for that refactoring and redesign time?
 
-## Business Value
+### Business Value
 
 Ultimately it seems like you would have to collect metrics on lost productivity due to maintaining messy code, or perhaps the impact to production when things become unstable and break unexpectedly. This can still be a hard thing to do, and we didn't have a whole lot of advice in the room for how to approach this. [SonarCloud](https://sonarcloud.io) did come up briefly as a something that measures technical debt and can assign real numbers to the cost of fixing it, but it seems far from a complete solution.
 
@@ -52,11 +51,11 @@ So how does one take such responsibility? One way is to include time for design,
 
 The hard truth about what we do, is that the frames we deliver are what make the business money. Our software helps with that, but is still a {{% tooltip "cost center" "A cost center is a department or function within an organization that does not directly add to profit but still costs the organization money to operate. ([source](https://www.investopedia.com/terms/c/cost-center.asp))" %}} to the business. No matter what we do, we should believe that our actions add value to the business.
 
-## Day-to-Day & Best Practices
+### Day-to-Day & Best Practices
 
 At this point in the evening, our discussions became a bit more focused on practical implications of the topic.
 
-### Testing
+#### Testing
 
 Testing your code properly is one excellent way to make it cleaner and more maintainable. With a suite of automated tests that can be run, any developer can much more easily make changes and be confident that they haven't broken anything.
 
@@ -68,13 +67,13 @@ Some of the best tests to write in the context of this discussion are ones that 
 
 We also talked about property testing, which many of us were not aware of. This is a technique in which you describe inputs and outputs by their properties, and the framework generates a large set of permutations for inputs and outputs to test the properties.
 
-### Deployment
+#### Deployment
 
 We recognized that software deployment is a part of this picture, as well. Taking the time to establish robust rollout and rollback processes is often one of the first items on the list to be bumped by a tight delivery.
 
 Fortunately, this is also something that is easier to sell. An automated deployment process can save developers a lot of time and stress that would otherwise be spent navigating a manual release process. Additionally, a quick and accessible rollback button can reduce downtime significantly for production.
 
-### Build A Toolchain
+#### Build A Toolchain
 
 We asked ourselves the question: why aren't people already doing all of these things? Even many of those in the room could not say that they tested regularly or followed these practices with the majority of their work.
 
@@ -86,7 +85,7 @@ Above those technical challenges, is the very nature of a DCC application. These
 
 All this to say, that there are a number of hurdles in the way of setting up automated testing and supporting good workflows for developers. Solving some of these problems one, and providing the solutions in a toolchain or even training for developers to leverage might go a long way in getting these practices going.
 
-### Evangelize for Clean Code
+#### Evangelize for Clean Code
 
 This example of privacy came up: the general population use to know next to nothing about online privacy and information security. Over the last few years, technologists, researchers and the media have been preaching the need for us to get smart with our data, and to be aware of who is collecting it and for what. This has lead to some great new legislation and created a population that demands security and privacy from the companies and services that they interact with.
 
@@ -94,7 +93,7 @@ Perhaps we need to be doing the same for what we believe in. If we believe that 
 
 And let's not forget about our fellow team members. We must also not succumb to the status quo. It may not happen over night, but we can work these best practices into our planning meetings, design sessions and code reviews. Over time we can support our team through the learning and discovery process as they begin to follow these practices.
 
-### Know Your Users
+#### Know Your Users
 
 As we discussed the ideas of communication between engineering and production, it came through that not every studio is the same position. This seems like an obvious point to make, but a few interesting ideas came out of this.
 
@@ -108,7 +107,7 @@ Depending on the size and proximity of this group, you are likely still going to
 
 At the far end of this spectrum is the status page. A single place for people to quickly understand the state and status of your software and services. In large organizations, this kind of information needs to be made readily available, since the regular channels of communication are often long and cumbersome compared to the whole studio in a single room.
 
-## Conclusion
+### Conclusion
 
 This was quite an interesting one for sure. If anything, I think we learned that clean coding is very much something that everyone wants to be doing, but that more often than we are proud of does not happen.
 
@@ -116,7 +115,7 @@ Is this really an effect of deadlines in production, though? Based on our discus
 
 Thanks for reading!
 
-## Further Reading & Links
+### Further Reading & Links
 
 - [Dropbox Tech: Rewriting the heart of our sync engine](https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine) - Not just for the article, but contains a wonderful check list to follow when you are considering a rewrite
 - [Hypothesis](https://hypothesis.works/) - a property-based testing framework for python

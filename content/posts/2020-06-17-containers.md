@@ -1,12 +1,9 @@
 ---
-title: "June 2020"
-topic: "Leveraging Containers in a Pipeline"
+title: "Leveraging Containers in a Pipeline"
 date: 2020-06-17
 author: Ryan Bottriell
 summary: "How can we or how do we use container technologies in a pipeline context?"
 ---
-
-# Leveraging Containers in a Pipeline
 
 To kick off this session, we started talking about what a container is. Everyone got a chance to put the idea into their own words and speak a little bit about their experiences with it. If you don't know what a container is, I recommend doing some introduction tutorials for docker, or ask a colleague for a demo! We also spoke about the underlying technologies of a container to make sure that we all had a reasonable base for the discussions to come. I can't really share the that we went over here, but if you want to do your own digging lookup Linux namespaces, cgroups, the chroot command, and overlayfs. These four pieces of tech are the foundation of what a container is.
 
@@ -14,7 +11,7 @@ Outside of our industry, containers have really taken off. They are primarily a 
 
 Containers are also generally designed to be much more ephemeral. A stateless application running in a container can be really easily scaled out or back in and distributed across many physical hosts as needed. This promise does not come without conscience design, though, which is something we will touch on later.
 
-## Who is Currently Using Containers?
+### Who is Currently Using Containers?
 
 There are a few use cases that we have seen or heard of in our industry. The most obvious one is the use of containers for running the web services that make up our pipelines. Some are building new services into containers, converting old ones, or designing entirely new microservice-based pipelines that leverage containers from day one. Here we're all leveraging containers to do what containers do best, but are there other use cases that are more unique to our industry?
 
@@ -22,7 +19,7 @@ Some of our render farms do use Linux cgroups to help carve out resources on far
 
 Some of us have also had good success using containers to standardize their build environments. The [Academy Software Foundation (ASWF)](https://www.aswf.io) also has started providing container images that represent the [VFX reference platform](https//vfxplatform.com), making it easier to build against the recommended software versions.
 
-## The Problem with VMs
+### The Problem with VMs
 
 In many ways containers are a sort of natural successor to the VM. Collectively we've found that VMs are too easy to bolt additional things into. Especially if it's slow or difficult to request or provision a new VM in your studio, there's a temptation to add new applications to existing VMs instead, having them do many things. This can cause a number of issues like overloading the VM, linking the stability of two unrelated applications, and making it harder to understand what any given VM actually does, to name a few.
 
@@ -32,7 +29,7 @@ With containers, many of these problems are removed simply because of the way th
 
 Of course, there are complexities and edge-cases to all of the statements being made here, but were talking more generally about the promises and personal experiences with both pieces of tech.
 
-## What We Are and Are Not Running
+### What We Are and Are Not Running
 
 A quick poll of those present showed that most of us are running some containers in production. Usually these are newer services or workflows that had the luxury of starting fresh. That leaves the largest percentage of applications not running in containers, and largely without the bandwidth or will to convert them. _Don't fix what 'aint broke_, as they say.
 
@@ -40,13 +37,13 @@ So aside from scheduling, are there other inhibitors to the use of containers in
 
 The other thing that we'd all love to be able to do is run DCC workloads or testing in containers. Often the lack of GPU and display access makes this difficult, not to mention the licensing and other technical challenges of trying to get a DCC application to run in a container. The ASWF and its CI efforts might prove to be very helpful in this area and we're all watching that in anticipation.
 
-## Conclusion
+### Conclusion
 
 Overall, we are excited to see what the future of containers might bring for us, but are not really seeing any extremely novel uses of containers in a pipeline context that you wouldn't already see in the web and other industries. If you have something of your own we'd love to hear about it, maybe a show-and-tell session?
 
 Thanks for reading!
 
-## Further Reading & Interesting Links
+### Further Reading & Interesting Links
 
 - [ACM Paper](https://dl.acm.org/doi/pdf/10.1145/3105692.3105702) on building a microservices pipeline
 - [NVIDIAs GPU Containers](https://github.com/NVIDIA/nvidia-docker) for interacting with the host GPU from a docker container

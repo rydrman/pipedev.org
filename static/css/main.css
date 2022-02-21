@@ -1,9 +1,12 @@
 
 html,body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
     margin: 0px;
     width: 100%;
     color: #404040;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {

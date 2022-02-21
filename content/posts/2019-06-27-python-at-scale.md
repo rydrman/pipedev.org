@@ -1,6 +1,5 @@
 ---
-title: "June 2019"
-topic: "Python at Scale"
+title: "Python at Scale"
 date: 2019-06-27
 author: Ryan Bottriell
 summary: "Just to be absolutely clear, we are talking about The Python Programming Language. Due to its integration in many of the digital content creation (DCC) applications, and other reasons I'm sure, it has become extremely prevalent in the visual effects and animation industries. 'At Scale', however, it a little bit more ambiguous. We discussed many different aspects of the language itself, but also a good amount about the people who use it..."

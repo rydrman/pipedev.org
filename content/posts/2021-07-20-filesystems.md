@@ -1,6 +1,5 @@
 ---
-title: "July 2021"
-topic: "Filesystems and Data Management"
+title: "Filesystems and Data Management"
 date: 2021-07-20
 author: Ryan Bottriell
 summary: "How do we organize and deal with all of the data that's produced in a pipeline?"
@@ -12,13 +11,13 @@ It's been quite some time since we had a topic-based discussion forum. Our virtu
 
 This topic is intentionally a little vague. Depending on who showed up we could talk about anything from file naming conventions to database management or even the inner working of filesystems themselves.
 
-Given that the group was quite small, we did actually talk about a number of things before going through the discussion and taking notes - unfortunatley those are not captured here, but what we did capture is still a very interesting set of questions and thoughts about where we are as an industry.
+Given that the group was quite small, we did actually talk about a number of things before going through the discussion and taking notes - unfortunately those are not captured here, but what we did capture is still a very interesting set of questions and thoughts about where we are as an industry.
 
 ### What is the future of filesystems in the VFX industry?
 
 If we ever were to move to some other filesystem format or interface, it would likely need to start with a common standard. Like the unix filesystem standard that we use on linux. This is unlikely to be created or driven from within the industry, however, given that we are not crazy enough to think that designing and developing our own filesystem is worthwhile (right?!).
 
-That being said, there are some existing standards that are arising for new technologies, the most notable being s3 as a defacto standard for object storage. This brought up questions about how object storage works, and whether it breaks files down to be more efficient.
+That being said, there are some existing standards that are arising for new technologies, the most notable being s3 as a de-facto standard for object storage. This brought up questions about how object storage works, and whether it breaks files down to be more efficient.
 
 The answer is largely different depending on the implementation that you use, but certainly, some do. That being said, as far as those that were in attendance knew, file chunking to reduce duplication is actually a very difficult problem to solve and you get more gains more easily through compression instead. [Hammerspace](https://hammerspace.com) came up as a technology that implements deduplication and compression. It does this in conjunction with object storage to make cross-site data movement and storage quicker and more efficient.
 
@@ -31,6 +30,7 @@ NFS is also still actively being developed. Although we don't talk about it much
 All this to say, NFS makes a lot of things really simple and is such a widely used technology that it's unlikely to get replaced anytime soon. Though it does continue to evolve!
 
 ### How to best optimize file storage for projects?
+
 > _for example: using hardlinks, symlinks, filesystem level compression etc._
 
 The first scenario here is with files that are controlled by the pipeline. These are files and directories that are created, organized and managed by pipeline code. Users don't usually look at or navigate these files manually.
@@ -41,7 +41,7 @@ On the other side are files that are not pipeline-controlled. These are file set
 
 Generally, our strategy for data like this is to use monitoring and quotas. Aka be able to report back to the user how much disk space they are using and enforce quotas for how much they are allowed to use.
 
-Another useful way to handle this is to set up a billing or chargeback system for productions - where they pay for the cumulative space that is being used. Charging the user themselves can be counterproductive if they spend too much energy worrying about size and therefore becoming less productive, but having productions pay for space overall incentivizes the team as a whole to not go overboard. At the same time, if they have the budget to go overboard then they can, and that money can simply be turned around into additional infrastructure.
+Another useful way to handle this is to set up a billing or chargeback system for productions - where they pay for the cumulative space that is being used. Charging the user themselves can be counterproductive if they spend too much energy worrying about size and therefore becoming less productive, but having productions pay for space overall incentivises the team as a whole to not go overboard. At the same time, if they have the budget to go overboard then they can, and that money can simply be turned around into additional infrastructure.
 
 Another idea that we talked about is that some filesystems (mac, butrfs) also support the idea of copy on write (aka reflinks) which allows a file to be references like a hardlink, but then not affect the original file when the reference is written to. This would only work in very specific setups but could be really valuable in the right place ([reflink vs symlink](https://dev.to/robogeek/reflinks-vs-symlinks-vs-hard-links-and-how-they-can-help-machine-learning-projects-1cj4)).
 

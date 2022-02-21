@@ -1,22 +1,19 @@
 ---
-title: "March 2021"
-topic: "Editorial and Review"
+title: "Editorial and Review"
 date: 2021-03-09
 author: Ryan Bottriell
 summary: "A discussion of playback, review, and editorial pipelines lead by Ahead.io"
 ---
 
-# Editorial and Review
-
 In this session, Ahead.io presented their product Cezanne Studio to kick off a larger discussion about editorial and review pipelines.
 
-## Cezanne Studio
+### Cezanne Studio
 
 The first minutes of our forum this month was an introduction to [Cezanne Studio](http://cezanne.ahead.io/cezanne-studio/). Cezanne is a review tool and media player first introduced in 2011 and recently updated with a 2.0 release. Alex presented the many features that it has as well as some of the design goals and potential next steps for the product.
 
 Getting a walkthrough of this application gave our conversation a great starting point, and Alex did a great job of showing us around without turning it into a sales pitch.
 
-## Q&A
+### Q&A
 
 Having been through the overview, there were a few questions that came up about Cezanne and its features:
 
@@ -38,7 +35,7 @@ Having been through the overview, there were a few questions that came up about 
 
   _yes_
 
-## Open Discussion
+### Open Discussion
 
 To kick off the discussion, Alex wanted to know what we thought about using otio as a method to share and sync timelines between different pieces of software in a live, collaborative way.
 
@@ -52,6 +49,6 @@ That being said, we also talked about some more contained use cases that we iden
 
 The other interesting scenario that we talked about was for previs. If you could connect Cezanne to Maya, and be able to have the two applications linked together, the timeline and transition functionality of Cezanne could prove much easier to use than trying to set everything up directly in Maya. You would need to be able to push out playblasts from Maya semi-automatically or something but it's an interesting idea nonetheless.
 
-## Wrapping Up
+### Wrapping Up
 
 There were also a number of one-off ideas and questions that we talked through in this session, but they either don't fit the theme or my notes were not entirely coherent. If you want to get all the juicy details, be sure to come out to our next event!

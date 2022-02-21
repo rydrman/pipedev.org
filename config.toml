@@ -13,7 +13,7 @@ googleAnalytics = "UA-139193311-2"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokailight"
+    style = "github"
     tabWidth = 4
   [markup.goldmark.renderer]
     # ensure our embedded url gets properly propagated
