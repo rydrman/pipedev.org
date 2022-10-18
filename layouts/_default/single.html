@@ -16,6 +16,8 @@
         <h1>{{ .Title }}<span class="subtitle-date"><br />{{ .Date.Format "Monday, Jan 2, 2006" }}</span></h1>
     </div>
     {{ partial "content.html" . }}
+    <div style="font-style:italic;text-align:center;padding-bottom:10px;opacity:0.7">Suggest edits to this page on <a
+            href="https://github.com/rydrman/pipedev.org">GitHub</a></div>
     {{ partial "footer.html" . }}
 
 </body>
