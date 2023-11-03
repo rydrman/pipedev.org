@@ -60,6 +60,6 @@ Typically, these are links that were shared or came up at some point during our 
 
 These polls were taken during the discussion. Keep in mind that not everyone answers and the sample size is small to begin with. They can be interesting to see but are not representative of any particular company or even the industry as a whole.
 
-![Poll: A pipeline TD is more likely to leave for...](/images/2023-10-18/poll_likely_to_leave.png)
+![Poll: A pipeline TD is more likely to leave for...](/images/2023-10-18/poll_likely_to_leave_for.png)
 ![Poll: Pipeline TD is more of a...](/images/2023-10-18/poll_career_or_step.png)
 ![Poll: Which is a better career move?](/images/2023-10-18/poll_better_move.png)
