@@ -49,5 +49,10 @@
 }
 
 .block p {
+    width: 100%;
     text-align: justify;
+}
+
+.block img {
+    width: 100%;
 }
