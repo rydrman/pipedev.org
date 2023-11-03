@@ -2,7 +2,7 @@
 title: "Fostering Individual Growth"
 date: 2023-10-18
 author: Ryan Bottriell
-summary: "What is the role of a Pipeline TD, and is it changing?"
+summary: "How do we create meaningful career pathways for pipeline roles?"
 ---
 
 This discussion topic comes as a continuation of one of the group discussions from the “Global CG Pipelines” Birds of a Feather session at this year’s Siggraph.
