@@ -1,8 +1,8 @@
 ---
 title: "Rust, Python, and Pipelines"
-date: 2023-10-18
+date: 2024-02-13
 author: Ryan Bottriell
-summary: "How do we create meaningful career pathways for pipeline roles?"
+summary: "A look at the main that make Rust unique and how it can integrate into python and pipeline environments."
 ---
 
 This session was primarily a presentation from myself on high-level concepts of Rust and how it might be used in a pipeline context. The entire session and subsequent discussion was recorded, so I'm posting that and the slides in place of my usual notes.
