@@ -2,19 +2,18 @@ baseURL = "http://pipedev.org/"
 languageCode = "en-us"
 title = "Pipeline Developer Forum"
 summaryLength = 25
-googleAnalytics = "UA-139193311-2"
 
 [markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "github"
-    tabWidth = 4
-  [markup.goldmark.renderer]
-    # ensure our embedded url gets properly propagated
-    unsafe= true
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "github"
+tabWidth = 4
+[markup.goldmark.renderer]
+# ensure our embedded url gets properly propagated
+unsafe = true
