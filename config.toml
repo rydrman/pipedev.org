@@ -1,7 +1,7 @@
 baseURL = "http://pipedev.org/"
 languageCode = "en-us"
-title = "Pipeline Developer Forum"
 summaryLength = 25
+title = "Digital Production Pipeline Association"
 
 [markup]
 [markup.highlight]

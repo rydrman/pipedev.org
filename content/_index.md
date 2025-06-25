@@ -4,7 +4,7 @@ title: "Home"
 
 ## About Us
 
-Our goal is to bring together the community of {{% tooltip VFX "Visual Effects" %}}, animation, and game pipeline developers to talk shop. We are based in Vancouver, but our events also run online and the group's membership is completely open. We encourage anyone who is interested to come by, or login and <a class="button" href="javascript:signup();">join the discussion</a>!
+Our goal is to bring together the community of {{% tooltip VFX "Visual Effects" %}}, animation, and game pipeline developers to talk shop. We are based in North America, but our events also run online and the group's membership is completely open. We encourage anyone who is interested to come by, or log on, and <a class="button" href="javascript:signup();">join the discussion</a>!
 
 ## The Forum
 
