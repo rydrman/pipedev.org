@@ -17,3 +17,7 @@ tabWidth = 4
 [markup.goldmark.renderer]
 # ensure our embedded url gets properly propagated
 unsafe = true
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'

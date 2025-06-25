@@ -12,7 +12,7 @@
 <body>
     <div class=" hero">
         {{ with resources.Get "images/dppa_side.png" }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Site.Title }}" height="150em" />
+        <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }}" height="150em" />
         {{ end }}
     </div>
     {{ partial "navbar.html" . }}
