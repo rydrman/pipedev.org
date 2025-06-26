@@ -1,0 +1,5 @@
+<div class="hero">
+    {{ $img := resources.Get "images/dppa_side.png" }}
+    {{ $img := $img.Process "jpg" }}
+    <img src="{{ $img.RelPermalink }}" alt="{{ .Site.Title }}" height="150em" />
+</div>

@@ -10,11 +10,7 @@
 </head>
 
 <body>
-    <div class=" hero">
-        {{ with resources.Get "images/dppa_side.png" }}
-        <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }}" height="150em" />
-        {{ end }}
-    </div>
+    {{ partial "hero.html" . }}
     {{ partial "navbar.html" . }}
     <div class="block">
         <h1>{{ .Title }}<span class="subtitle-date"><br />{{ .Date.Format "Monday, Jan 2, 2006" }}</span></h1>

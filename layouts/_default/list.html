@@ -8,11 +8,7 @@
 </head>
 
 <body>
-    <div class="hero">
-        {{ with resources.Get "images/dppa_side.png" }}
-        <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }}" height="150em" />
-        {{ end }}
-    </div>
+    {{ partial "hero.html" . }}
     {{ partial "navbar.html" . }}
     {{ partial "content.html" . }}
 

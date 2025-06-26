@@ -1,0 +1,7 @@
+{{ $raw := .Page.Resources.GetMatch .Destination }}
+{{ if not $raw }}
+{{ $raw = resources.Get .Destination }}
+{{ end }}
+{{ $img := $raw.Process "jpg" }}
+<img src="{{ $img.RelPermalink | safeURL }}" {{- with .PlainText }} alt="{{ . }}" {{ end -}} {{- with .Title }}
+    title="{{ . }}" {{ end -}} />
