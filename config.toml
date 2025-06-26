@@ -21,3 +21,7 @@ unsafe = true
 [[module.mounts]]
 source = 'assets'
 target = 'assets'
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
