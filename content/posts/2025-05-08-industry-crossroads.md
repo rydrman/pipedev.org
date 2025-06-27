@@ -1,6 +1,6 @@
 ---
 title: "Industry Crossroads"
-date: 2025--5-08
+date: 2025-05-08
 author: Ryan Bottriell
 summary: "Summarized notes from the discussion on the state of the industry."
 ---
